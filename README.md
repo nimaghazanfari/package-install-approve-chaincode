@@ -2,7 +2,7 @@
 
 Inspired by [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and [Fabric Samples](https://github.com/hyperledger/fabric-samples).
 
-Using this [deploy.sh](https://github.com/nimaghazanfari/package-install-approve-chaincode/deploy.sh) file, you can automatically package, install and approve all of your chaincodes into default Hyperledger Fabric Orgs (Org1 and Org2).
+Using this [deploy.sh](https://github.com/nimaghazanfari/package-install-approve-chaincode/blob/main/deploy.sh) file, you can automatically package, install and approve all of your chaincodes into default Hyperledger Fabric Orgs (Org1 and Org2).
 
 ## Getting started with the Fabric samples
 
@@ -17,7 +17,7 @@ the [test network tutorial](https://hyperledger-fabric.readthedocs.io/en/latest/
 
 ## How to use this code?
 
-Create a copy of [deploy.sh](https://github.com/nimaghazanfari/package-install-approve-chaincode/deploy.sh) under the `test-network` directory of fabric-samples and modify these lines of code according to your project setup and contracts names. (if you are using a different folder structure, you might need to change orther parts as well)
+Create a copy of [deploy.sh](https://github.com/nimaghazanfari/package-install-approve-chaincode/blob/main/deploy.sh) under the `test-network` directory of fabric-samples and modify these lines of code according to your project setup and contracts names. (if you are using a different folder structure, you might need to change orther parts as well)
 ```
 export CHAINCODES=("fabcar" "fabcar2")
 export PROJNAME=fabcar
