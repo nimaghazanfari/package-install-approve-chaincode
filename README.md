@@ -1,6 +1,6 @@
 # Hyperledger Fabric: package, install and approve chaincodes
 
-Inspired by [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and [Fabric Samples](https://github.com/hyperledger/fabric-samples).\
+Inspired by [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/latest/install.html) and [Fabric Samples](https://github.com/hyperledger/fabric-samples).
 
 Using this [deploy.sh](https://github.com/nimaghazanfari/package-install-approve-chaincode/deploy.sh) file, you can automatically package, install and approve all of your chaincodes into default Hyperledger Fabric Orgs (Org1 and Org2).
 
@@ -22,7 +22,7 @@ Create a copy of [deploy.sh](https://github.com/nimaghazanfari/package-install-a
 export CHAINCODES=("fabcar" "fabcar2")
 export PROJNAME=fabcar
 ```
-Here in this example, my project is located inside a folder called `PROJNAME=fabcar` and contains only two chaincodes called `("fabcar" "fabcar2")`. You can add as many chaincodes as your project contains.\
+Here in this example, my project is located inside a folder called `PROJNAME=fabcar` and contains only two chaincodes called `("fabcar" "fabcar2")`. You can add as many chaincodes as your project contains.
 
 Save your `deploy.sh` and run this command:
 ### `./deploy.sh run`
